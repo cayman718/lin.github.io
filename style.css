@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+/* 標題區 */
+.top {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid #000;
+}
+
+.top img {
+    height: 55px;
+    margin: 0 10px;
+    width: 1000px;
+}
+
+.logo, .compass {
+    height: 55px;
+    margin: 0 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: #36648B;
+}
+
+/* 內容包裝區 */
+.content-wrapper {
+    display: flex;
+    text-align: center;
+    min-height: 654px;
+}
+
+/* 選單區 */
+.menu {
+    width: 215px;
+    border-right: 1px solid #000;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.menu-title {
+    color: #FF00FF;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    background-color: #FFE4C4;
+    margin: 5px;
+}
+
+.update-date {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    border-top: 1px solid #000;
+}
+
+/* 內容區的跑馬燈 */
+.content-marquee {
+    color: #FF00FF;
+    height: 29px;
+    line-height: 29px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+/* 內容區 */
+.content {
+    width: calc(1024px - 215px);
+    height: calc(768px - 65px - 20px);
+    flex: 1;
+    padding: 0;
+    text-align: center;
+    color: #0000FF;
+    line-height: 1.8;
+}
+
+.main-content {
+    width: 100%;
+    height: calc(100% - 29px);
+}    
+
+
+.content p {
+    padding: 0 20px;
+}
+
+/* 頁尾區 */
+.footer {
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 10px;
+    border-top: 1px solid #000;
+} 
